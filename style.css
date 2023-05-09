@@ -1,0 +1,303 @@
+
+h1 {
+	text-align: center;
+	font-family: 'Patrick Hand SC', serif ;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Crimson text', serif;
+	font-size: 35px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Ysabeau', sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	padding: 10px;
+}
+
+h4 {
+	font-family: 'Ysabeau', sans-serif;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Crimson text', serif;
+}
+
+h6 {
+	font-family: sans-serif;
+	font-weight: 3;
+}
+
+
+a {
+	font-family: 'Crimson text', serif;
+}
+
+section {
+	padding-top: 10px;
+}
+
+body {
+  background-image: url("Home/Abackground.png");
+  background-repeat: repeat;
+}
+
+/* NAV BAR */
+
+nav {
+	background-color: #87AE73;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav a:hover {
+	background-color: #88C78D;
+}
+
+nav .active a {
+	background-color: #88C78D;
+}
+/* END NAV BAR */
+
+/* Carousel */
+
+img {
+	padding-right: 75px;
+	padding-left: 75px;
+	padding-bottom: 50px;
+}
+
+/* END CAROUSEL */
+
+/* HOME */
+
+
+
+
+#Welcome .container{
+	background-color: #88C78D;
+
+}
+
+#Welcome .container {
+  width: 85%;
+  height: 150px;
+  border: 2px solid #87AE73;
+  padding: 20px;
+  padding-right: 30px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#petting-zoo .container{
+	background-color: #88C78D;
+}
+
+#petting-zoo .container {
+  width: 90%;
+  height: 450px;
+  border: 2px solid #87AE73;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: right;
+}
+
+#pick-your-own-berries .container {
+	background-color: #88C78D;
+}
+
+#pick-your-own-berries .container {
+  width: 90%;
+  height: 450px;
+  border: 2px solid #87AE73;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+#baking-class .container{
+	background-color: #88C78D;
+}
+
+#baking-class .container {
+  width: 90%;
+  height: 450px;
+  border: 2px solid #87AE73;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: right;
+}
+
+
+/* ABOUT US */
+
+p {
+font-family: 'Ysabeau', sans-serif;
+font-size: 20px;
+
+}
+
+
+
+.card {
+	background-color: #88C78D;
+}
+
+
+#AboutUs {
+	background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+#Mary {
+  display: flex;
+  justify-content: center;
+}
+
+#John {
+	display: flex;
+  justify-content: center;
+}
+
+#Karen {
+	display: flex;
+  justify-content: center;
+}
+/* PRODUCTS */
+
+
+.btn {
+    margin-right: 15px;
+  }
+
+.btn-primary {
+	background-color: #88C78D;
+	border-color: black;
+}
+
+.btn-primary:hover {
+	background-color: #87AE73;
+	border-color: black;
+}
+
+#Products .container {
+	width: 85%;
+  height: 150px;
+  border: 2px solid #87AE73;
+  padding: 20px;
+  padding-right: 30px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#Products .container {
+	background-color: #88C78D;
+}
+
+#multiCollapseExample1 img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+#multiCollapseExample1 .card {
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+
+#multiCollapseExample2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#multiCollapseExample2 .card {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#multiCollapseExample3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#multiCollapseExample3 .card {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#multiCollapseExample4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#multiCollapseExample4 .card {
+  width: 300px;
+  margin: 0 auto;
+}
+/* END PRODUCTS */
+
+
+/* HOURS */
+
+li {
+	font-family: 'Ysabeau', sans-serif;
+	font-size: 20px;
+}
+
+
+#Hours {
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+
+#hoursp img {
+	max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* END HOURS */
+
+/* CONTACT */
+
+#Address {
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+}
+
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
